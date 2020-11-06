@@ -1,0 +1,96 @@
+body {
+	background-color:black;
+}
+
+#gameBoard {
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px 120px;
+	justify-content: center;
+	width:600px;
+	height:600px;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gameBoard div{
+	background-color:#00EE00;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.item {
+	background-image:url("images/item.png");
+}
+.tree {
+	background-image:url("images/tree.png");
+}
+.flag {
+	background-image:url("images/finish.png");
+}
+.rock {
+	background-image:url("images/rock.png");
+}
+.fence {
+	background-image:url("images/basicbarrier-vertical.png");
+}
+.fenceside {
+	background-image:url("images/basicbarrier-horizontal.png");
+}
+.water {
+	background-image:url("images/water.png");
+}
+.horseup {
+	background-image:url("images/basicicon-frontnorider.png");
+}
+.horseleft {
+	background-image:url("images/basicicon-leftnorider.png");
+}
+.horseright {
+	background-image:url("images/basicicon-rightnorider.png");
+}
+.horsedown {
+	background-image:url("images/basicicon-downnorider.png");
+}
+.horserideup {
+	background-image:url("images/basicarrowwithitem-front.png");
+}
+.horserideleft {
+	background-image:url("images/basicarrowwithitem-left.png");
+}
+.horserideright {
+	background-image:url("images/basicarrowwithitem-right.png");
+}
+.horseridedown {
+	background-image:url("images/basicarrowwithitem-back.png");
+}
+.jumpup {
+	background-image:url("images/xd.png");
+}
+.jumpleft {
+	background-image:url("images/xd.png");
+}
+.jumpright {
+	background-image:url("images/xd.png");
+}
+.jumpdown {
+	background-image:url("images/barrierbreak-down.png");
+}
+.enemyleft {
+	background-image:url("images/enemy-left.png");
+}
+.enemyright {
+	background-image:url("images/enemy-right.png");
+}
+.enemyup {
+	background-image:url("images/enemy-up.png");
+}
+.enemydown {
+	background-image:url("images/enemy-down.png");
+}
+
+.bridge {
+	background-color:#800020 !important;
+}
