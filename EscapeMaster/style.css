@@ -1,0 +1,265 @@
+body {
+	background-color:black;
+}
+
+#lives {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:70px;
+	height:35px;
+	background-color:#d9e4dd;
+	background-size: 50%;
+	background-position:left;
+	background-repeat:no-repeat;
+	border-radius:10px;
+}
+
+#lives div{
+	max-height:100%;
+	max-width:100%;
+}
+
+#gameBoard {
+	border: 10px solid #d4cecd;
+	border-radius:10px;
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px 120px;
+	justify-content: center;
+	width:600px;
+	height:600px;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gameBoard div{
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.life {
+	background-image:url("images/heart.png");
+}
+.bank {
+	background-image:url("images/bank.png");
+}
+.swat {
+	background-image:url("images/swat(back).png");
+}
+.swatleft {
+	background-image:url("images/swat(left).png");
+}
+.vehicledestroyer {
+	background-image:url("images/vehicledestroyer.png");
+}
+.vandestroyup {
+	background-image:url("images/vanwithdestroyer(top).png");
+}
+.vandestroydown {
+	background-image:url("images/vanwithdestroyer(bottom).png");
+}
+.vandestroyleft {
+	background-image:url("images/vanwithdestroyer(left).png");
+}
+.vandestroyright {
+	background-image:url("images/vanwithdestroyer(right).png");
+}
+.plane {
+	background-image:url("images/airplane.png");
+}
+.house {
+	background-image:url("images/house1.png");
+}
+.house2 {
+	background-image:url("images/house2.png");
+}
+.house3 {
+	background-image:url("images/house3.png");
+}
+.airport {
+	background-image:url("images/airport.png");
+}
+.propvehicle {
+	background-image:url("images/main-vehicle(front).png");
+}
+.propvehicletwo {
+	background-image:url("images/main-vehicle(left).png");
+}
+.stationarypol {
+	background-image:url("images/police-car(back).png");
+}
+.policeright {
+	background-image:url("images/police-car(right).png");
+}
+.policeleft {
+	background-image:url("images/police-car(left).png");
+}
+.policeup {
+	background-image:url("images/police-car(front).png");
+}
+.policedown {
+	background-image:url("images/police-car(back).png");
+}
+.car {
+	background-image:url("images/white-car(front).png");
+}
+.cartwo {
+	background-image:url("images/black-car(left).png");
+}
+.carthree {
+	background-image:url("images/parked-carleft.png");
+}
+.towerone {
+	background-image:url("images/tower2.png");
+}
+.towertwo {
+	background-image:url("images/tower1.png");
+}
+.spike {
+	background-image:url("images/road-spike(horizontal).png");
+}
+.spikeup {
+	background-image:url("images/road-spike(vertical).png");
+}
+.wall {
+	background-image:url("images/wall(horizontal).png");
+}
+.wallup {
+	background-image:url("images/wall(vertical).png");
+}
+.wallupright {
+	background-image:url("images/wall(angle-upright).png");
+}
+.walldnleft {
+	background-image:url("images/wall(angle-downleft).png");
+}
+.walldnright {
+	background-image:url("images/wall(angle-downright).png");
+}
+.wallupleft {
+	background-image:url("images/wall(angle-upleft).png");
+}
+.plant {
+	background-image:url("images/plant-decoration.png");
+}
+.item {
+	background-image:url("images/money-bag.png");
+}
+.money {
+	background-image:url("images/money-bags.png");
+}
+.tree {
+	background-image:url("images/trees.png");
+}
+.flag {
+	background-image:url("images/finish.png");
+}
+.vehicleflag {
+	background-image:url("images/main-vehicle(front).png");
+}
+.rock {
+	background-image:url("images/rock.png");
+}
+.fence {
+	background-image:url("images/ramp(vertical).png");
+}
+.fenceside {
+	background-image:url("images/ramp(horizontal).png");
+}
+.door {
+	background-image:url("images/door(horizontal).png");
+}
+.doorside {
+	background-image:url("images/door(vertical).png");
+}
+.water {
+	background-image:url("images/lake.png");
+}
+.robberright {
+	background-image:url("images/robber(right).png");
+}
+.robberleft {
+	background-image:url("images/robber(left).png");
+}
+.robberBagsright {
+	background-image:url("images/robber-withbag(right).png");
+}
+.robberBagsleft {
+	background-image:url("images/robber-withbag(left).png");
+}
+.vanup {
+	background-image:url("images/main-vehicle(front).png");
+}
+.vanleft {
+	background-image:url("images/main-vehicle(left).png");
+}
+.vanright {
+	background-image:url("images/main-vehicle(right).png");
+}
+.vandown {
+	background-image:url("images/main-vehicle(back).png");
+}
+.vanrideup {
+	background-image:url("images/main-vehicle(front).png");
+}
+.vanrideleft {
+	background-image:url("images/main-vehicle(left).png");
+}
+.vanrideright {
+	background-image:url("images/main-vehicle(right).png");
+}
+.vanridedown {
+	background-image:url("images/main-vehicle(back).png");
+}
+.jumpup {
+	background-image:url("images/ramp-cartop(vertical).png");
+}
+.jumpleft {
+	background-image:url("images/ramp-carleft(horizontal).png");
+}
+.jumpright {
+	background-image:url("images/ramp-carright(horizontal).png");
+}
+.jumpdown {
+	background-image:url("images/ramp-carbottom(vertical).png");
+}
+.dooropen {
+	background-image:url("images/dooropen(horizontal).png");
+}
+.dooropenvertical {
+	background-image:url("images/dooropen(verticalout).png");
+}
+.dooropenverticalin {
+	background-image:url("images/dooropen(verticalin).png");
+}
+.enemyleft {
+	background-image:url("images/security-guard1(left).png");
+}
+.enemyright {
+	background-image:url("images/security-guard1(right).png");
+}
+
+.bridge {
+	background-color:#800020 !important;
+}
+
+.message{
+	display:none;
+	position:relative;
+	margin-left: auto;
+	margin-right:auto;
+	width:50%;
+	height:50%;
+	background-color:rgba(51,51,51);
+	color:white;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-size: 40px;
+	vertical-align:top;
+	text-align:center;
+	line-height:2;
+	text-decoration: none;
+	margin-top:-500px;
+	border: 10px white solid;
+}

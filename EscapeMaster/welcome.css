@@ -1,0 +1,59 @@
+body{
+	background-color: #3d3e40;
+	text-align:center;
+
+}
+
+h1{
+	margin-top:-12px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size: 90px;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	position:relative;
+}
+
+.start{
+	color:white;
+	text-align:center;
+	font-size:50px;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	text-decoration: none;
+}
+
+#rectangle{
+	width: 575px;
+	height:100px;
+	border: 15px solid white;
+	padding: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	background:grey;
+	position:relative;
+}
+.start:hover{
+	color:gray;
+}
+
+p{
+	color:white;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+}
+#story{
+	color:white;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-size:17px;
+	line-height: 3;
+}
+#life{
+	color:white;
+	position:relative;
+	position:absolute;
+	top:55px;
+	left:27px;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+
